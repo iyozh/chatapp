@@ -126,3 +126,8 @@ CHANNEL_LAYERS = {
         'BACKEND': 'channels.layers.InMemoryChannelLayer',
     },
 }
+
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://chatappiy.herokuapp.com'
+]
